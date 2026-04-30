@@ -1,0 +1,10 @@
+.scroll-to-top {
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.15s ease;
+
+	&.show {
+		pointer-events: all;
+		opacity: 1;
+	}
+}

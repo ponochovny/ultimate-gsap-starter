@@ -5,13 +5,43 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Ultimate GSAP Starter</title>
-		<link rel="stylesheet" href="/src/style.scss" />
+		<link rel="stylesheet" href="/src/style.css" />
 	</head>
 	<body>
 		<div class="wrapper">
 			<h1>Ultimate GSAP Starter</h1>
-			<div class="container">
+			<!-- <div class="container">
 				<div class="box"></div>
+			</div> -->
+
+			<div class="flex flex-wrap gap-4">
+				<a
+					href="/src/pages/animation1/index.html"
+					class="flex flex-col rounded-xl overflow-hidden w-1/4"
+				>
+					<div class="bg-rose-200 h-20"></div>
+					<div class="bg-blue-950 py-3 px-4 text-muted text-sm">
+						Animation 1 | Simple
+					</div>
+				</a>
+				<a
+					href="/src/pages/animation2/index.html"
+					class="flex flex-col rounded-xl overflow-hidden w-1/4"
+				>
+					<div class="bg-rose-200 h-20"></div>
+					<div class="bg-blue-950 py-3 px-4 text-muted text-sm">
+						Animation 2 | Controls, methods
+					</div>
+				</a>
+				<a
+					href="/src/pages/animation3/index.html"
+					class="flex flex-col rounded-xl overflow-hidden w-1/4"
+				>
+					<div class="bg-rose-200 h-20"></div>
+					<div class="bg-blue-950 py-3 px-4 text-muted text-sm">
+						Animation 3 | Scroll To Top Button
+					</div>
+				</a>
 			</div>
 		</div>
 		<script type="module" src="/src/main.ts"></script>
