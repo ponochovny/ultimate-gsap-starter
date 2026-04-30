@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ultimate GSAP Starter</title>
+		<link rel="stylesheet" href="/src/style.css" />
+		<link rel="stylesheet" href="/src/pages/animation4/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="flex items-center gap-4 mb-4">
+				<a
+					href="/"
+					class="text-2xl text-white hover:text-gray-300 transition-colors w-10 h-10 border border-gray-500 rounded-xl flex items-center justify-center hover:bg-black-500 hover:border-gray-600"
+				>
+					⬅
+				</a>
+				<h1>Animation 4 | Slider, Back Easing</h1>
+			</div>
+
+			<div class="container">
+				<div class="relative bg-gray-900 px-8 py-6 rounded-lg shadow-lg">
+					<ul class="tab-row flex gap-4">
+						<li
+							class="tab text-muted font-semibold hover:cursor-pointer hover:text-white transition-colors active"
+						>
+							Overview
+						</li>
+						<li
+							class="tab text-muted font-semibold hover:cursor-pointer hover:text-white transition-colors"
+						>
+							Features
+						</li>
+						<li
+							class="tab text-muted font-semibold hover:cursor-pointer hover:text-white transition-colors"
+						>
+							Pricing
+						</li>
+						<li
+							class="tab text-muted font-semibold hover:cursor-pointer hover:text-white transition-colors"
+						>
+							Team
+						</li>
+						<li
+							class="tab text-muted font-semibold hover:cursor-pointer hover:text-white transition-colors"
+						>
+							Support
+						</li>
+					</ul>
+					<div
+						class="indicator h-1 bg-linear-to-r from-fuchsia-500 to-purple-500 absolute left-8 bottom-0"
+					></div>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="/src/pages/animation4/main.ts"></script>
+	</body>
+</html>
