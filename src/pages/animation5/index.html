@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ultimate GSAP Starter</title>
+		<link rel="stylesheet" href="/src/style.css" />
+		<link rel="stylesheet" href="/src/pages/animation5/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="flex items-center gap-4 mb-4">
+				<a
+					href="/"
+					class="text-2xl text-gray-100 w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center transition-colors hover:text-white"
+				>
+					⬅
+				</a>
+				<h1>Animation 5 | Elastic Easing</h1>
+			</div>
+
+			<div class="container">
+				<div class="relative w-140 h-110 p-10 rounded-3xl bg-amber-50">
+					<button
+						class="repeat absolute right-2 top-2 rounded-sm w-5 h-5 bg-sky-600 flex items-center justify-center hover:cursor-pointer"
+					>
+						🔁
+					</button>
+
+					<div id="chart"></div>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="/src/pages/animation5/main.ts"></script>
+	</body>
+</html>
