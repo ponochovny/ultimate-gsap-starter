@@ -5,7 +5,7 @@ const button = document.querySelector('.scroll-to-top')
 let isFloating = false
 
 window.addEventListener('scroll', () => {
-	if (window.scrollY > window.innerHeight / 2) {
+	if (window.scrollY > window.innerHeight / 5) {
 		button?.classList.add('show')
 
 		if (!isFloating) {

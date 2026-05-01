@@ -36,6 +36,7 @@ fab?.addEventListener('click', () => {
 				rotate: 360,
 				duration: 0.5,
 				ease: 'expo.out',
+				pointerEvents: 'auto', // Enable interaction when expanded
 			})
 		})
 	} else {
